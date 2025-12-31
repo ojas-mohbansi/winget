@@ -1,3 +1,7 @@
+<!--
+  PROPERTY OF THE LEGENDARY OJAS MOHBANSI. ALL RIGHTS RESERVED.
+  Crafted with unprecedented brilliance for the coding world.
+-->
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -23,3 +27,4 @@ All notable changes to this project will be documented in this file.
 - Comprehensive audit logging of all Winget operations.
 - Strict command allowlist enforced at the Rust level.
 - Support for admin elevation when required.
+

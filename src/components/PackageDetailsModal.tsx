@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 import React, { useState, useEffect } from 'react';
 import { WingetPackage, getPackageDetails, installPackage } from '../api/winget';
 
@@ -244,3 +254,4 @@ export const PackageDetailsModal: React.FC<PackageDetailsModalProps> = ({ pkg, o
         </div>
     );
 };
+

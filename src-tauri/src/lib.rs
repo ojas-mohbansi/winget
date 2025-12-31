@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
 fn greet(name: &str) -> String {
@@ -12,3 +22,4 @@ pub fn run() {
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
+

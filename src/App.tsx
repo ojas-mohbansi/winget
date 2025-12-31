@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 import React, { useEffect, useState, useCallback, useMemo } from 'react';
 import { checkAdmin, requestAdmin, searchPackages, listInstalledPackages, getUpgrades, upgradeAllPackages, WingetPackage } from './api/winget';
 import { PackageItem } from './components/PackageItem';
@@ -667,3 +677,4 @@ function App() {
 }
 
 export default App;
+

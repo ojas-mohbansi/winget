@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
@@ -31,3 +41,4 @@ export default defineConfig(async () => ({
     },
   },
 }));
+

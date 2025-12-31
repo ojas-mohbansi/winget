@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 // Prevents creating additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
@@ -48,3 +58,4 @@ pub fn main() {
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
+

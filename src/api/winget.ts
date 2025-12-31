@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 import { invoke } from "@tauri-apps/api/core";
 
 export interface WingetPackage {
@@ -116,3 +126,4 @@ export async function importPackages(filePath: string): Promise<WingetCommandRes
 export async function getAuditLogs(): Promise<string | null> {
     return await invoke("read_audit_logs");
 }
+

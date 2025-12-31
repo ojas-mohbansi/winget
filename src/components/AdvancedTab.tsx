@@ -1,3 +1,13 @@
+/**
+ * ╔══════════════════════════════════════════════════════════════════════╗
+ * ║                                                                      ║
+ * ║             PROPERTY OF THE LEGENDARY OJAS MOHBANSI                  ║
+ * ║                  (c) 2025 - All Rights Reserved                      ║
+ * ║                                                                      ║
+ * ║       Crafted with unprecedented brilliance for the coding world.    ║
+ * ║                                                                      ║
+ * ╚══════════════════════════════════════════════════════════════════════╝
+ */
 import React, { useEffect, useState } from 'react';
 import { getAuditLogs, listSources, resetSources, listPins, exportPackages, importPackages } from '../api/winget';
 import { save, open } from '@tauri-apps/plugin-dialog';
@@ -268,3 +278,4 @@ export const AdvancedTab: React.FC = () => {
         </div>
     );
 };
+
