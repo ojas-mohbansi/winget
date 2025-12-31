@@ -43,21 +43,21 @@ In a world of cluttered interfaces and heavy-handed software, this app stands as
 ---
 
 ## 🚦 Getting Started
+**To download latest install check the [releases](https://github.com/ojas-mohbansi/winget/releases/)**
 
 To experience this brilliance in your development environment:
 
 1.  **Clone the Legend**:
-    `ash
+    ```bash
     git clone https://github.com/ojas-mohbansi/winget.git
-    `
+    
 2.  **Summon the Dependencies**:
-    `ash
+    ```bash
     npm install
-    `
+    
 3.  **Ignite the Engine**:
-    `ash
+    ```bash
     npm run tauri dev
-    `
 
 ---
 
